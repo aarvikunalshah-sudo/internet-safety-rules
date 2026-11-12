@@ -1,0 +1,48 @@
+body{
+    font-family: Lucida Handwriting;
+    background-color: #f5ff9f;
+    color: #333;
+    text-align: center;
+    margin:0;
+    padding:0;
+
+}
+
+header{
+    background-color: #f7b7ff;
+    color: #333;
+    padding:20px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.5);
+}
+
+nav{
+    background-color:#c2ecfd;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    flex-wrap: wrap;
+}
+
+nav a{
+    text-decoration: none;
+    color: #197707;
+    font-weight: bold;
+    padding:5px 10px;
+    border-radius: 5px;
+    transition:background-color 0.3s;
+}
+nav a:hover{
+    background-color: #8d79ff9c;
+    color: white;
+}
+main{
+    padding:20px ;
+    font-size: 16px;
+    line-height: 1.6;
+}
+img{
+    width: 600px; ;
+    border-radius: 15px;
+    border:1px solid #9ef3ac
+}
