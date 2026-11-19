@@ -1,29 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Internet safety rules</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Internet safety rules</h1>
-            <p>Learn how to work safely on the internet.</p>
-        </header>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>My personal Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to my personal blog!</h1>
+        <p>take a glimps into my life, my achivements, my hobbies and schooling and how to contact me.</p>
+    </header>
 
-        <nav>
-            <a href="information-privacy.html">Information privacy</a>
-            <a href="internet-caution.html">Internet caution</a>
-            <a href="scam-awarness.html">scam awarness</a>
-            <a href="password-safety.html">Password safety</a>
-            
+    <div class="navbar">
+        <ul>
+            <li><a href="#about">About me</a></li>
+             <li><a href="#artgallery">art gallery</a></li>
+              <li><a href="#school"> school</a></li>
+               <li><a href="#skills">skills</a></li>
+                <li><a href="#contact">contact me</a></li>
+        </ul>
+    </div>
 
-        </nav>
-        <main>
-            <h2> Welcome</h2>
-            <img src="https://kingstonintervalhouse.com/wp-content/uploads/2021/08/internet-security.jpg" alt="internet Safety">
-            <p>The internet is a great place to learn, play games, and connect with others, but it is important to stay safe while using it. Internet safety means protecting yourself by creating strong passwords, keeping them secret, and never sharing personal information like your address, phone number, or passwords with strangers. You should also be careful of online scams, avoid clicking on suspicious links, and never open messages from people you don't trust. Always think before you click, be careful about what you share, and remember to tell a trusted adult if something online makes you feel uncomfortable. Making smart choices online helps keep you and your information safe!</p>
-        </main>
-    </body>
+    <main>
+        <div id="about" class="section">
+            <h2>About me</h2>
+            <div class="about-content">
+                <img src="https://i.pinimg.com/736x/75/57/74/75577410cc338bcf8215c403d81bbf80.jpg"alt=profile pic!>
+                <p>hi guys! welcome to my personal blog. i like to rollerblade, paint and do art, gymnastics, and i also like coding.In my blog i will talk about my achivements, my art, my skills, and how to contact and ask question to me.</p>
+            </div>
+        </div>
+
+        <div id="achivements" class="section">
+            <h2>my achivements</h2>
+            <ul>
+                <li>got an award for leadership at my gymnasics-2026
+ </li>
+ <li> got an award for being smart-2023</li>
+ <li>i won a gold award in a Competition-2025 </li>
+ got to vote for the south carolina book award nominee-2025</li>
+ <li>got a perfect score on the SC ready-2024 and 2025</li>
+            </ul>
+        </div>
+
+         <div id=" art-gallery" class="section">
+            <h2> mini Art gallery</h2>
+            <div class="Gallary-grid">
+<img src="">
+                <img src="https://blog.milanartinstitute.com/media/posts/a4ae4596ea38267d.webp"alt="Mona lisa">
+                <img src="">
+                <img src="">
+            </div>
+            </div>
+
+            <div id="skills" class="section">
+            <h2> My skills</h2>
+            <table>
+                <tr>
+                <th>skill</th>
+                <th>expertise</th>
+</tr>
+<tr>
+    <td>gymnastics</td>
+    <td>above average</td>
+</tr>
+<tr>
+    <td>art</td>
+    <td>great</td>
+</tr>
+<tr>
+    <td>mathematics</td>
+    <td>good enough</td>
+</tr>
+            </table>
+            </div>
+<div id="contact-and-questions" class="section">
+    <h2>Contact me</h2>
+    <form action="#" method="post" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="name">email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="name">message:</label>
+        <textarea type="message" id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">submit</button>
+    </form>
+</div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2026 My digital yearbook. all rights reserved</p>
+    </footer>
+</body>
 </html>
